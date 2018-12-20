@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>sample-asp</id>
+    <version>1.0.0</version>
+    <title>sample-asp</title>
+    <authors>Capgemini</authors>
+    <owners>Capgemini</owners>
+    <licenseUrl>http://www.essity.com</licenseUrl>
+    <projectUrl>http://www.essity.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Sample Deploy Package</description>
+    <releaseNotes>First release</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>sample-asp</tags>
+  </metadata>
+  <files>
+    <file src="bin\release\publish\**" target=""/>    
+  </files>   
+</package>
